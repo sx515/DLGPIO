@@ -11,7 +11,7 @@ make clean	清理编译文件<br>
 <br>
 使用方法：<br>
 工程需包含头文件：<br>
-[#include <dlgpio.h>](https://github.com/sx515/DLGPIO/blob/master/dlgpio.h "dlgpio.h")<br>
+[#include \<dlgpio.h\>](https://github.com/sx515/DLGPIO/blob/master/dlgpio.h "dlgpio.h")<br>
 <br>
 【一】使用GPIO前必须使用dlgpio作为变量类型用于声明一个gpio：<br>
 	dlgpio status_led;<br>
