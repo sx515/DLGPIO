@@ -1,6 +1,8 @@
 #DL GPIO
 用于Orange PI系列<br>
 根据用户空间SYSFS的GPIO接口，封装的GPIO操作库。<br>
+Orange PI PC 40 PIN:<br>
+![](https://github.com/sx515/DLGPIO/blob/master/gpio.jpg)
 编译方法：<br>
 make	编译库<br>
 make install 安装库文件到/usr/lib <br>
@@ -9,7 +11,7 @@ make clean	清理编译文件<br>
 <br>
 使用方法：<br>
 工程需包含头文件：<br>
-`#include <dlgpio.h>`<br>
+[#include <dlgpio.h>](https://github.com/sx515/DLGPIO/blob/master/dlgpio.h "dlgpio.h")<br>
 <br>
 【一】使用GPIO前必须使用dlgpio作为变量类型用于声明一个gpio：<br>
 	dlgpio status_led;<br>
