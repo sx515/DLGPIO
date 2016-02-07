@@ -1,5 +1,6 @@
-#DL GPIO
-##用于Orange PI系列
+# DL GPIO
+
+用于Orange PI系列
 根据用户空间SYSFS的GPIO接口，封装的GPIO操作库。
 编译方法：
 make	编译库
@@ -49,6 +50,6 @@ make clean	清理编译文件
 
 在编译工程时，编译命令需加入 -ldlgpio
 
-##Email
+Email
 sxwr2013@live.com
 
