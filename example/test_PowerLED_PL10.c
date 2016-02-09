@@ -4,7 +4,7 @@
 
 int main()
 {
-    dlgpio power_led = {POWER_LED, OUT};//GPIO 15 is "Status Led".
+    dlgpio power_led = {POWER_LED, OUT};//GPIO 362 is "Status Led".
 	printf("[INIT GPIO]\n");
     init_gpio(&power_led);
     int i;
