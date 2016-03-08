@@ -108,6 +108,7 @@ void init_gpios(dlgpio _gpio[])
 {
 	int ArraySize = sizeof(dlgpio)/sizeof(_gpio[0]);
 	int i;
+	p = ret;
 	
 	for(i = 0; i<ArraySize; i++)
 	{

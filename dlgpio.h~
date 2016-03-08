@@ -126,7 +126,7 @@ int init_gpio(dlgpio *_gpio);
 参数：dlgpio类型数组
 返回值：正常返回0，否则<0
 */
-void init_gpios(dlgpio gpios[]);
+int[] init_gpios(dlgpio gpios[]);
 
 /*
 关闭一个被打开的GPIO
